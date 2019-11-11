@@ -52,7 +52,6 @@ exit
 router bgp 65000
   neighbor 169.254.10.1 remote-as 65001
   neighbor 169.254.10.1 activate
-  neighbor 169.254.10.1 password awsamazon
   neighbor 169.254.10.1 timers 10 30 30
   address-family ipv4 unicast
     neighbor 169.254.10.1 remote-as 65001
@@ -120,7 +119,6 @@ exit
 router bgp 65000
   neighbor 169.254.11.1 remote-as 65001
   neighbor 169.254.11.1 activate
-  neighbor 169.254.11.1 password awsamazon
   neighbor 169.254.11.1 timers 10 30 30
   address-family ipv4 unicast
     neighbor 169.254.11.1 remote-as 65001
